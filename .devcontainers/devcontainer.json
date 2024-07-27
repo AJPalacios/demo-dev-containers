@@ -1,0 +1,9 @@
+{
+  "name": "my-demo-app",
+  "forwardPorts": [8080],
+  "remoteUser": "root",
+ "build": {
+   "context": ".",
+   "dockerfile": "Dockerfile"
+ }
+}
